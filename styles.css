@@ -152,7 +152,7 @@ main{
 
 .firstSection__footer{
     display: flex;
-    height: 370px;
+    height: 390px;
     width: 100%;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
