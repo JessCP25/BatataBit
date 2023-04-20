@@ -35,7 +35,7 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-width: 324px;
+    min-width: 320px;
     height: 334px;
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
@@ -73,13 +73,12 @@ header img{
     color: var(--soft-orange);
 }
 
-.header--title-container .header--button{
+.header--button{
     position: absolute;
     padding: 15px;
     left: calc(50% - 114.5px);
-    top: 270px;
+    top: -24px;
     display: block;
-    margin-top: 35px;
     width: 229px;
     height: 48px;
     background-color: var(--off-white);
@@ -102,6 +101,7 @@ header img{
 }
 
 main{
+    position: relative;
     width: 100%;
     height: auto;
     min-width: 320px;
@@ -150,12 +150,22 @@ main{
     color: #757575;
 }
 
+.firstSection__footer{
+    display: flex;
+    height: 370px;
+    width: 100%;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .firstSection__containertb1{
+    scroll-snap-align: center;
     width: 70%;
-    min-width: 325px;
+    min-width: 320px;
     max-width: 500px;
-    height: 360px;
     margin: 0 auto;
+    height: 360px;
     font-family: "Inter", sans-serif;
     /* display: none; */
 }
@@ -252,11 +262,12 @@ main{
 }
 
 .firstSection__containertb2{
+    scroll-snap-align: center;
     width: 70%;
+    margin: 0 auto;
     min-width: 325px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
     font-family: "Inter", sans-serif;
     /* display: none; */
 }
@@ -362,7 +373,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-image: url(./assets/img/bitcoinbaby.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

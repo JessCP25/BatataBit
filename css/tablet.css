@@ -1,0 +1,27 @@
+header{
+    height: 280px;
+}
+.firstSection__footer{
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+}
+.productSection__contents{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 930px;
+    margin: 0 auto;
+}
+.productSection__card{
+    width: 40%;
+    max-width: 400px;
+}
+.plansSection{
+    justify-content: center;
+}
+.imgSection{
+    background-image: url(/assets/img/bitcoinbaby2x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
